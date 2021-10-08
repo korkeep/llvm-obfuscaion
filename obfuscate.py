@@ -1,8 +1,7 @@
 from struct import *
-f = open('build/Blink.elf', 'rb')
-a = open('build/a.txt', 'r')
-
-k = open('build/Olink.elf', 'wb')
+f = open('result/Blink.elf', 'rb')
+a = open('result/a.txt', 'r')
+k = open('result/Olink.elf', 'wb')
 
 
 data = f.read()
